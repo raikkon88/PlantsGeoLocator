@@ -14,6 +14,8 @@ target 'plantsGeoLoc' do
 
   pod 'react-native-maps', :path => '../node_modules/react-native-maps'
 
+  pod 'ReactNativeGetLocation', :path => '../node_modules/react-native-get-location'
+
   target 'plantsGeoLocTests' do
     inherit! :complete
     # Pods for testing
